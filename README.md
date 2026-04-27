@@ -48,7 +48,6 @@ It provides an attractive user interface with smooth navigation, making travel p
 
 ## ⚙️ Installation / How to Run  
 
-```bash
 # Clone the repository
 git clone https://github.com/ctt-vaishnavi/TravelAgencyWebsite.git
 
