@@ -42,9 +42,9 @@ It provides an attractive user interface with smooth navigation, making travel p
 
 > *(Add your project screenshots here)*  
 
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page)  
-![Destinations](https://via.placeholder.com/800x400?text=Destinations)  
-![Packages](https://via.placeholder.com/800x400?text=Tour+Packages)  
+![Home Page](./1.png)  
+![Destinations](./2.png)  
+![Packages](./3.png)  
 
 ---
 
@@ -58,6 +58,8 @@ git clone https://github.com/ctt-vaishnavi/TravelAgencyWebsite.git
 cd TravelAgencyWebsite
 
 # Open index.html in browser
+
+---
 📂 Folder Structure
 TravelAgencyWebsite/
 │── index.html
@@ -68,6 +70,7 @@ TravelAgencyWebsite/
 │── images/
 │── assets/
 
+---
 🔮 Future Enhancements
 🤖 AI-based travel recommendations
 🔐 User authentication (Login/Register)
@@ -76,14 +79,13 @@ TravelAgencyWebsite/
 📊 Personalized dashboards
 👩‍💻 Author
 
+---
 Vaishnavi Shinde
 🎓 Computer Engineering Student
 💻 Passionate about Web Development
 
+---
 ⭐ Show Your Support
 
 If you like this project, please ⭐ the repository and share it!
 
-🌟 Final Note
-
-Travel is the only thing you buy that makes you richer — start your journey today! ✈️🌍
