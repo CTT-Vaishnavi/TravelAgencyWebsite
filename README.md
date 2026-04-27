@@ -40,8 +40,6 @@ It provides an attractive user interface with smooth navigation, making travel p
 
 ## 📸 Screenshots  
 
-> *(Add your project screenshots here)*  
-
 ![Home Page](./1.png)  
 ![Destinations](./2.png)  
 ![Packages](./3.png)  
@@ -60,6 +58,7 @@ cd TravelAgencyWebsite
 # Open index.html in browser
 
 ---
+
 📂 Folder Structure
 TravelAgencyWebsite/
 │── index.html
@@ -71,6 +70,7 @@ TravelAgencyWebsite/
 │── assets/
 
 ---
+
 🔮 Future Enhancements
 🤖 AI-based travel recommendations
 🔐 User authentication (Login/Register)
@@ -80,11 +80,13 @@ TravelAgencyWebsite/
 👩‍💻 Author
 
 ---
+
 Vaishnavi Shinde
 🎓 Computer Engineering Student
 💻 Passionate about Web Development
 
 ---
+
 ⭐ Show Your Support
 
 If you like this project, please ⭐ the repository and share it!
