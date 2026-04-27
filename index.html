@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOYA — Curated Escapes</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <a href="#" class="nav-logo">VOYA</a>
+        <ul class="nav-links">
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <button class="nav-cta">Plan Your Journey</button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="hero-tag">✦ &nbsp;Curated Luxury Travel Since 1998</span>
+            <h1 class="hero-title">
+                Where will<br><em>life</em> take<br>you next?
+            </h1>
+            <p class="hero-sub">We craft journeys that linger in memory long after you've returned. Handpicked
+                destinations, private experiences, seamless details.</p>
+            <div class="hero-actions">
+                <button class="btn-primary">Explore Destinations</button>
+                <button class="btn-ghost">Our Story</button>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <div class="search-field">
+                <label>Destination</label>
+                <select>
+                    <option>Where to?</option>
+                    <option>Santorini, Greece</option>
+                    <option>Kyoto, Japan</option>
+                    <option>Patagonia, Argentina</option>
+                    <option>Amalfi Coast, Italy</option>
+                    <option>Maldives</option>
+                    <option>Morocco</option>
+                </select>
+            </div>
+            <div class="search-field">
+                <label>Departure</label>
+                <input type="text" placeholder="Depart when?" onfocus="this.type='date'"
+                    onblur="if(!this.value)this.type='text'">
+            </div>
+            <div class="search-field">
+                <label>Travellers</label>
+                <select>
+                    <option>How many?</option>
+                    <option>Solo (1)</option>
+                    <option>Couple (2)</option>
+                    <option>Family (3–5)</option>
+                    <option>Group (6+)</option>
+                </select>
+            </div>
+            <button class="search-go">Search</button>
+        </div>
+
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-strip">
+        <div class="marquee-inner">
+            <span class="marquee-item">Santorini<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Kyoto<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Patagonia<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Maldives<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Amalfi Coast<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Marrakech<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Bali<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Queenstown<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Santorini<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Kyoto<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Patagonia<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Maldives<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Amalfi Coast<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Marrakech<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Bali<span class="marquee-dot">✦</span></span>
+            <span class="marquee-item">Queenstown<span class="marquee-dot">✦</span></span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" style="padding-top: 160px;">
+        <div class="intro">
+            <div class="intro-left reveal">
+                <div class="section-label">Who We Are</div>
+                <h2 class="section-title">Travel curated<br>with <em>intention</em></h2>
+                <p class="intro-text">VOYA was born from a simple belief — that a truly great journey transforms you.
+                    Our team of seasoned travel architects doesn't sell packages; they design experiences that are as
+                    unique as the people who live them.</p>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <div class="stat-num">26+</div>
+                        <div class="stat-label">Years of Craft</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">180</div>
+                        <div class="stat-label">Destinations</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">40k</div>
+                        <div class="stat-label">Journeys Crafted</div>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-right reveal" style="transition-delay: 0.2s">
+                <img class="intro-img-main"
+                    src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80" alt="Traveller">
+                <img class="intro-img-secondary"
+                    src="https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&q=80" alt="Resort">
+                <div class="intro-badge">Est.<br>1998<br>✦</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINATIONS -->
+    <section class="destinations" id="destinations">
+        <div class="dest-header reveal">
+            <div>
+                <div class="section-label">Featured Escapes</div>
+                <h2 class="section-title">Destinations that<br><em>move</em> you</h2>
+            </div>
+            <button class="btn-primary" style="cursor:none">View All →</button>
+        </div>
+
+        <div class="dest-grid">
+            <div class="dest-card reveal">
+                <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=900&q=80" alt="Santorini">
+                <div class="dest-card-overlay"></div>
+                <div class="dest-card-info">
+                    <div class="dest-name">Santorini</div>
+                    <div class="dest-sub">Greece · Europe</div>
+                </div>
+                <div class="dest-price">From $2,840</div>
+            </div>
+            <div class="dest-card reveal" style="transition-delay:0.1s">
+                <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=700&q=80" alt="Kyoto">
+                <div class="dest-card-overlay"></div>
+                <div class="dest-card-info">
+                    <div class="dest-name">Kyoto</div>
+                    <div class="dest-sub">Japan · Asia</div>
+                </div>
+                <div class="dest-price">From $3,100</div>
+            </div>
+            <div class="dest-card reveal" style="transition-delay:0.15s">
+                <img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=700&q=80" alt="Maldives">
+                <div class="dest-card-overlay"></div>
+                <div class="dest-card-info">
+                    <div class="dest-name">Maldives</div>
+                    <div class="dest-sub">Indian Ocean</div>
+                </div>
+                <div class="dest-price">From $4,500</div>
+            </div>
+            <div class="dest-card reveal" style="transition-delay:0.2s">
+                <img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=700&q=80" alt="Morocco">
+                <div class="dest-card-overlay"></div>
+                <div class="dest-card-info">
+                    <div class="dest-name">Morocco</div>
+                    <div class="dest-sub">Africa · Culture</div>
+                </div>
+                <div class="dest-price">From $1,950</div>
+            </div>
+            <div class="dest-card reveal" style="transition-delay:0.25s">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=700&q=80" alt="Bali">
+                <div class="dest-card-overlay"></div>
+                <div class="dest-card-info">
+                    <div class="dest-name">Bali</div>
+                    <div class="dest-sub">Indonesia · Asia</div>
+                </div>
+                <div class="dest-price">From $2,200</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCES -->
+    <section class="experiences" id="experiences">
+        <div class="exp-header reveal">
+            <div class="section-label">What We Offer</div>
+            <h2 class="section-title">Every <em>detail</em>,<br>considered</h2>
+        </div>
+        <div class="exp-grid">
+            <div class="exp-item reveal">
+                <span class="exp-icon">🏰</span>
+                <span class="exp-num">01</span>
+                <div class="exp-title">Luxury Stays</div>
+                <p class="exp-desc">From cliffside villas to private island retreats — accommodation that becomes part
+                    of the story.</p>
+            </div>
+            <div class="exp-item reveal" style="transition-delay:0.1s">
+                <span class="exp-icon">🍽</span>
+                <span class="exp-num">02</span>
+                <div class="exp-title">Culinary Journeys</div>
+                <p class="exp-desc">Private dining experiences, market tours, and cooking lessons with masters of their
+                    craft.</p>
+            </div>
+            <div class="exp-item reveal" style="transition-delay:0.2s">
+                <span class="exp-icon">🧭</span>
+                <span class="exp-num">03</span>
+                <div class="exp-title">Private Guides</div>
+                <p class="exp-desc">Expert local guides who unlock hidden layers of culture, history, and authenticity.
+                </p>
+            </div>
+            <div class="exp-item reveal" style="transition-delay:0.3s">
+                <span class="exp-icon">🚁</span>
+                <span class="exp-num">04</span>
+                <div class="exp-title">Adventure & Access</div>
+                <p class="exp-desc">Helicopter drops, private charters, and after-hours access to the world's greatest
+                    sites.</p>
+            </div>
+            <div class="exp-item reveal" style="transition-delay:0.4s">
+                <span class="exp-icon">🛁</span>
+                <span class="exp-num">05</span>
+                <div class="exp-title">Wellness Escapes</div>
+                <p class="exp-desc">Spa retreats, yoga sanctuaries, and healing traditions woven naturally into your
+                    itinerary.</p>
+            </div>
+            <div class="exp-item reveal" style="transition-delay:0.5s">
+                <span class="exp-icon">🎭</span>
+                <span class="exp-num">06</span>
+                <div class="exp-title">Cultural Immersion</div>
+                <p class="exp-desc">Ceremonies, festivals, ateliers, and artisan workshops — participate, don't just
+                    observe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="packages" id="packages">
+        <div class="pkg-header reveal">
+            <div>
+                <div class="section-label">Our Collections</div>
+                <h2 class="section-title">Choose your<br><em>journey</em></h2>
+            </div>
+            <button
+                style="background:transparent;border:1px solid rgba(255,255,255,0.2);color:rgba(240,232,216,0.6);padding:12px 28px;font-size:11px;letter-spacing:2px;text-transform:uppercase;cursor:none;font-family:'DM Sans',sans-serif;">View
+                All Packages</button>
+        </div>
+        <div class="pkg-grid">
+            <div class="pkg-card reveal">
+                <span class="pkg-tag">Essentials</span>
+                <div class="pkg-name">Wanderer</div>
+                <div class="pkg-duration">7 nights · 2 destinations</div>
+                <div class="pkg-price"><span>$</span>2,490</div>
+                <div class="pkg-per">per person, twin share</div>
+                <ul class="pkg-features">
+                    <li>Curated boutique hotels</li>
+                    <li>Private airport transfers</li>
+                    <li>Daily breakfast included</li>
+                    <li>City orientation tour</li>
+                    <li>24/7 concierge support</li>
+                </ul>
+                <button class="pkg-btn">Book Now</button>
+            </div>
+            <div class="pkg-card featured reveal" style="transition-delay:0.15s">
+                <span class="pkg-tag">★ Most Popular</span>
+                <div class="pkg-name">Voyager</div>
+                <div class="pkg-duration">12 nights · 3 destinations</div>
+                <div class="pkg-price"><span>$</span>4,890</div>
+                <div class="pkg-per">per person, twin share</div>
+                <ul class="pkg-features">
+                    <li>5-star luxury properties</li>
+                    <li>Private guided experiences</li>
+                    <li>All meals included</li>
+                    <li>One spa day per destination</li>
+                    <li>Private transfers throughout</li>
+                    <li>Dedicated travel architect</li>
+                </ul>
+                <button class="pkg-btn">Book Now</button>
+            </div>
+            <div class="pkg-card reveal" style="transition-delay:0.3s">
+                <span class="pkg-tag">Ultra-Luxury</span>
+                <div class="pkg-name">Sovereign</div>
+                <div class="pkg-duration">18 nights · 4 destinations</div>
+                <div class="pkg-price"><span>$</span>9,800</div>
+                <div class="pkg-per">per person, twin share</div>
+                <ul class="pkg-features">
+                    <li>Private villa & yacht options</li>
+                    <li>Fully bespoke itinerary</li>
+                    <li>Private jet between cities</li>
+                    <li>Michelin dining reservations</li>
+                    <li>24/7 personal concierge</li>
+                    <li>Photography & film crew</li>
+                </ul>
+                <button class="pkg-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="testi-header reveal">
+            <div class="section-label">Voices from the Road</div>
+            <h2 class="section-title">Stories from our<br><em>travellers</em></h2>
+        </div>
+        <div class="testi-track">
+            <div class="testi-card">
+                <span class="testi-quote">"</span>
+                <div class="stars">★★★★★</div>
+                <p class="testi-text">VOYA didn't just plan a trip — they crafted a chapter of our lives. Every detail
+                    was a surprise, every moment felt intentional.</p>
+                <div class="testi-author">
+                    <img class="testi-avatar" src="https://i.pravatar.cc/96?img=5" alt="Sarah">
+                    <div>
+                        <span class="testi-name">Sarah & James K.</span>
+                        <span class="testi-trip">Santorini & Amalfi, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <span class="testi-quote">"</span>
+                <div class="stars">★★★★★</div>
+                <p class="testi-text">The private tea ceremony in Kyoto. The rooftop in Marrakech. The silence of
+                    Patagonia at dawn. This agency understands what travel can truly be.</p>
+                <div class="testi-author">
+                    <img class="testi-avatar" src="https://i.pravatar.cc/96?img=12" alt="Marcus">
+                    <div>
+                        <span class="testi-name">Marcus L.</span>
+                        <span class="testi-trip">Asia Odyssey, 2025</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <span class="testi-quote">"</span>
+                <div class="stars">★★★★★</div>
+                <p class="testi-text">We've used other agencies. None come close. VOYA's attention to detail borders on
+                    the obsessive — and we are completely here for it.</p>
+                <div class="testi-author">
+                    <img class="testi-avatar" src="https://i.pravatar.cc/96?img=20" alt="Nina">
+                    <div>
+                        <span class="testi-name">Nina & Rob T.</span>
+                        <span class="testi-trip">Maldives Private Retreat, 2025</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <span class="testi-quote">"</span>
+                <div class="stars">★★★★★</div>
+                <p class="testi-text">A solo traveller's dream. I felt completely taken care of from arrival to farewell
+                    — never lonely, always discovering something new.</p>
+                <div class="testi-author">
+                    <img class="testi-avatar" src="https://i.pravatar.cc/96?img=47" alt="Priya">
+                    <div>
+                        <span class="testi-name">Priya M.</span>
+                        <span class="testi-trip">Morocco & Portugal, 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <div class="newsletter">
+        <div class="reveal">
+            <h2 class="nl-title">Inspiration,<br><em>delivered</em> to<br>your door</h2>
+            <p class="nl-text">Monthly dispatches from our travel architects — hidden gems, limited offers, and stories
+                from the road.</p>
+        </div>
+        <div class="reveal" style="transition-delay:0.2s">
+            <div class="nl-form">
+                <input class="nl-input" type="text" placeholder="Your full name">
+                <input class="nl-input" type="email" placeholder="Your email address">
+                <select class="nl-input" style="cursor:none">
+                    <option value="">Travel interest</option>
+                    <option>Cultural & Heritage</option>
+                    <option>Adventure & Nature</option>
+                    <option>Wellness & Spa</option>
+                    <option>Culinary & Wine</option>
+                    <option>Beach & Island</option>
+                </select>
+                <button class="nl-submit">Subscribe to VOYA Letters</button>
+                <p class="nl-disclaimer">No spam. Unsubscribe anytime. Your data is never shared.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div>
+                <a class="footer-logo" href="#">VOYA</a>
+                <p class="footer-about">Crafting extraordinary journeys since 1998. We believe travel is the greatest
+                    investment you'll ever make in yourself.</p>
+                <div class="footer-social">
+                    <a class="social-link" href="#">ig</a>
+                    <a class="social-link" href="#">fb</a>
+                    <a class="social-link" href="#">tw</a>
+                    <a class="social-link" href="#">yt</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="#">Europe</a></li>
+                    <li><a href="#">Asia</a></li>
+                    <li><a href="#">Africa</a></li>
+                    <li><a href="#">Americas</a></li>
+                    <li><a href="#">Pacific</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About VOYA</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partners</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 VOYA Travel. All rights reserved.</span>
+            <span>✦ &nbsp;Curated escapes for the discerning traveller</span>
+        </div>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
