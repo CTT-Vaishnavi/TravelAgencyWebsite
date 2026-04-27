@@ -1,5 +1,6 @@
-# 🌍✈️ Travel Agency Website  
-### *Explore the World with Ease & Comfort*
+# 🌍✈️ Travel Agency Website
+
+### _Explore the World with Ease & Comfort_
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
@@ -8,63 +9,70 @@
 
 ---
 
-## 📌 Project Overview  
-The **Travel Agency Website** is a modern and responsive web application designed to help users explore travel destinations, view tour packages, and plan their trips easily.  
+## 📌 Project Overview
+
+The **Travel Agency Website** is a modern and responsive web application designed to help users explore travel destinations, view tour packages, and plan their trips easily.
 
 It provides an attractive user interface with smooth navigation, making travel planning simple and enjoyable.
 
 ---
 
-## 🚀 Live Demo  
+## 🚀 Live Demo
+
 🔗 **Visit Website:**  
 👉 https://ctt-vaishnavi.github.io/TravelAgencyWebsite/
 
 ---
 
-## ✨ Features  
-- 🌎 Explore popular travel destinations  
-- 📦 View curated tour packages  
-- 📱 Fully responsive design (mobile-friendly)  
-- 🎨 Clean and modern UI/UX  
-- 🔍 Easy navigation and structured layout  
-- 📸 Attractive visuals and travel sections  
+## ✨ Features
+
+- 🌎 Explore popular travel destinations
+- 📦 View curated tour packages
+- 📱 Fully responsive design (mobile-friendly)
+- 🎨 Clean and modern UI/UX
+- 🔍 Easy navigation and structured layout
+- 📸 Attractive visuals and travel sections
 
 ---
 
-## 🛠️ Tech Stack  
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Styling:** Custom CSS  
-- **Deployment:** GitHub Pages  
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Styling:** Custom CSS
+- **Deployment:** GitHub Pages
 
 ---
 
-## 📸 Screenshots  
+## 📸 Screenshots
 
 ![Home Page](./1.png)  
 ![Destinations](./2.png)  
-![Packages](./3.png)  
+![Packages](./3.png)
 
 ---
 
-## ⚙️ Installation / How to Run  
+## ⚙️ Installation / How to Run
 
 # Clone the repository
+
 git clone https://github.com/ctt-vaishnavi/TravelAgencyWebsite.git
 
 # Navigate into the project folder
+
 cd TravelAgencyWebsite
 
 # Open index.html in browser
 
 ---
 
-📂 Folder Structure
+# 📂 Folder Structure
+
 TravelAgencyWebsite/
 │── index.html
 │── css/
-│   └── style.css
+│ └── style.css
 │── js/
-│   └── script.js
+│ └── script.js
 │── images/
 │── assets/
 
@@ -89,4 +97,3 @@ Vaishnavi Shinde
 ⭐ Show Your Support
 
 If you like this project, please ⭐ the repository and share it!
-
